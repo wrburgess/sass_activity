@@ -19,21 +19,21 @@ module: {
 
 1. Add a `/styles` directory to your `app` directory.
 
-1. Add a `_variables.scss` file to your `styles` directory.
+1. Add a `_variables.scss` partial to your `styles` directory.
 
-1. Add a `_reset.scss` file to your your `styles` directory.
+1. Add a `_reset.scss` partial to your your `styles` directory.
 
-1. Copy/paste the contents of Normalize.css into your `_reset.scss` file: https://github.com/necolas/normalize.css/blob/master/normalize.css
+1. Copy/paste the contents of **Normalize.css** into your `_reset.scss` file: https://github.com/necolas/normalize.css/blob/master/normalize.css
 
-1. Add a `standards.scss` file to your `styles` directory.
+1. Add a `_standards.scss` partial to your `styles` directory.
 
-1. Add a selector called `.default-font-treatment` and add some normal lettering styles using variables.
+1. Add a selector called `.default-font-treatment` to `_standards` and add some normal lettering styles using variables.
 
-1. Add a selector called `.crazy-font-treatment` and add some wacko lettering styles using variables.
+1. Add a selector called `.crazy-font-treatment` to `_standards` and add some wacko lettering styles using variables.
 
 1. Add a `main.scss` file to your `styles` directory.
 
-1. Import the `variables`, `reset`, and `standards` files into your `main.scss` file using the `@import` instruction.
+1. Import the `variables`, `reset`, and `standards` partials into your `main.scss` file using the `@import` instruction.
 
 1. Add a selector to your to your `main.scss` file for `p`.
 
