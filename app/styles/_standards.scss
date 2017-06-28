@@ -1,0 +1,12 @@
+.default-font-treatment {
+  color: $font-color;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.crazy-font-treatment {
+  color: $green;
+  font-size: 1em * 2;
+  font-weight: bold;
+  font-style: italic;
+}
