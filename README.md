@@ -37,7 +37,7 @@ module: {
 
 1. Add a selector to your to your `main.scss` file for `p`.
 
-1. Add the line `require('./styles/main.scss')` to your `app.js` file. This will tell React to render all of your CSS in your `index.html` file.
+1. Add the line `import './styles/main.scss'` to your `app.js` file. This will tell React to render all of your CSS in your `index.html` file.
 
 1. Build your React and Sass production files and open `public/index.html` in your browser
 
